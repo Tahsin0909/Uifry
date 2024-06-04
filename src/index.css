@@ -2,14 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.css_navbar{
+padding: 10px;
+}
+
 .css_button{
     width: 120px;
     text-align: center;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     padding: 10px 0px;
     border-radius: 5px;
     transition-property: background-color;
     transition: all , 200ms;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 .css_button:hover{
@@ -18,4 +23,8 @@
     color: white;
    
  
+}
+
+.css_shared_Color{
+    color: #FF5555;
 }
