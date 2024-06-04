@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.css_button{
+    width: 120px;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px 0px;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition: all , 200ms;
+}
+
+.css_button:hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+   
+ 
+}
