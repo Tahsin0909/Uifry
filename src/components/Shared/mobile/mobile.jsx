@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 const Mobile = ({image, subImage}) => {
     return (
         <div className="relative">
