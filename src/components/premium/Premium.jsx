@@ -1,4 +1,4 @@
-import Mobile from "../Shared/mobile/Mobile";
+import Mobile from '../Shared/mobile/Mobile';
 import image from '/iPhone-13-Pro-Front.png'
 const Premium = () => {
     return (
