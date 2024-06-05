@@ -1,4 +1,4 @@
-import Mobile from "../Shared/mobile/mobile";
+import Mobile from '../Shared/mobile/Mobile';
 import image2 from '/iPhone-13-Pro-Front (1).png'
 import image3 from '/iPhone-13-Pro-Front.png'
 import subImage from '/On Hold.png'
