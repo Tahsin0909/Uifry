@@ -1,8 +1,12 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoPlayCircleOutline } from "react-icons/io5";
+import './Banner.css'
 const Banner = () => {
     return (
-        <section className="lg:max-w-screen-xl md:max-w-screen-md mx-auto lg:mt-16 md:mt-10 border border-red-400">
+        <section className="lg:max-w-screen-xl md:max-w-screen-md mx-auto lg:mt-16 md:mt-10 ">
+            <img className="absolute right-20 top-20" src="/public/Star 1.png" alt="" />
+            <img className="absolute left-5 w-10 top-20" src="/public/Star 1.png" alt="" />
+            <img className="absolute w-10 top-[500px] left-40" src="/public/Star 1.png" alt="" />
             <div className="flex lg:flex-row flex-col">
                 <div className="space-y-8 w-[600px]">
                     <div className="absolute top-8 -z-50 left-50">
@@ -24,9 +28,11 @@ const Banner = () => {
                 </div>
 
                 <div className="">
-                    <img className=" absolute -translate-y-20" src="/public/iPhone-13-Pro-Front.png" alt="" />
-                    <img className=" absolute translate-x-28 -translate-y-10 -z-30" src="/public/iPhone-13-Pro-Front (1).png" alt="" />
-                    <img className=" absolute translate-x-56 translate-y-10  -z-50" src="/public/iPhone-13-Pro-Front (2).png" alt="" />
+                    <img className=" absolute -translate-y-20" src="/iPhone-13-Pro-Front.png" alt="" />
+                    <img className=" absolute translate-x-28 -translate-y-10 -z-20" src="/iPhone-13-Pro-Front (1).png" alt="" />
+                    <img className=" absolute translate-x-56 translate-y-10  -z-30" src="/iPhone-13-Pro-Front (2).png" alt="" />
+                    <img className=" absolute translate-x-10 -translate-y-20  -z-40" src="/ring.png" alt="" />
+                    <img className=" absolute translate-x-16 w-[700px] translate-y-52  -z-40" src="/liner.png" alt="" />
                 </div>
             </div>
 

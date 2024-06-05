@@ -1,0 +1,28 @@
+.banner-container img {
+    position: absolute;
+}
+
+.image-1 {
+    transform: translateY(-5rem); 
+}
+
+.image-2 {
+    transform: translateX(7rem) translateY(-2.5rem); 
+    z-index: -20;
+}
+
+.image-3 {
+    transform: translateX(14rem) translateY(2.5rem); 
+    z-index: -30;
+}
+
+.image-4 {
+    transform: translateX(2.5rem) translateY(-5rem);
+    z-index: -40;
+}
+
+.image-5 {
+    transform: translateX(4rem) translateY(13rem);
+    width: 700px; 
+    z-index: -40;
+}
