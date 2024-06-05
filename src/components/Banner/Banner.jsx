@@ -27,12 +27,12 @@ const Banner = () => {
                     <img className="-translate-x-8 lg:w-[500px] md:w-[500px] w-64 mx-auto md:mx-0" src="/banner slide.png" alt="" />
                 </div>
 
-                <div className="">
+                <div className="relative">
                     <img className="md:w-[500px] w-[300px] absolute md:-translate-y-20 -translate-y-8" src="/iPhone-13-Pro-Front.png" alt="" />
                     <img className="md:w-[500px] w-[300px] absolute md:translate-x-28 translate-x-16 md:-translate-y-10 -translate-y-1 -z-20" src="/iPhone-13-Pro-Front (1).png" alt="" />
                     <img className="md:w-[400px] w-[250px] absolute md:translate-x-56 translate-x-28 translate-y-10  -z-30" src="/iPhone-13-Pro-Front (2).png" alt="" />
                     <img className="lg:w-[600px] md:w-[400px] w-[300px] absolute md:translate-x-10 translate-x-10 md:-translate-y-20 -translate-y-10   -z-40" src="/ring.png" alt="" />
-                    <img className=" absolute translate-x-16 md:w-[600px] w-[200px] translate-y-52  -z-40" src="/liner.png" alt="" />
+                    <img className="relative  translate-x-16 md:w-[600px] w-[200px] translate-y-52  -z-40" src="/liner.png" alt="" />
                 </div>
             </div>
 
