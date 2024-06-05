@@ -1,4 +1,4 @@
-import Mobile from '../Shared/mobile/Mobile';
+import MobileComponents from '../Shared/MobileComponents/MobileComponents';
 import image2 from '/iPhone-13-Pro-Front (1).png'
 import image3 from '/iPhone-13-Pro-Front.png'
 import subImage from '/On Hold.png'
@@ -17,10 +17,10 @@ const WhyChooseUs = () => {
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut alias doloribus expedita sint repellat saepe voluptatibus tenetur culpa modi, necessitatibus sed quibusdam praesentium, corrupti delectus, dolorum eaque provident esse voluptatem!</p>
                 </div>
-                <Mobile image={image2} subImage={subImage} />
+                <MobileComponents image={image2} subImage={subImage} />
             </div>
             <div className="flex lg:flex-row flex-col-reverse items-center lg:gap-7 lg:mt-28 md:mt-40" >
-                <Mobile image={image3} />
+                <MobileComponents image={image3} />
 
                 <div className="lg:space-y-6 space-y-3 lg:w-[700px]">
                     <div className="flex items-center  lg:gap-4 gap-3">

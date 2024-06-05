@@ -1,11 +1,11 @@
-import Mobile from '../Shared/mobile/Mobile';
+import MobileComponents from '../Shared/MobileComponents/MobileComponents';
 import image from '/iPhone-13-Pro-Front.png'
 const Premium = () => {
     return (
         <section className="lg:max-w-screen-xl md:max-w-[700px] max-w-[380px] mx-auto lg:mt-16 md:mt-40 mt-64 ">
 
             <div className="flex lg:flex-row flex-col-reverse items-center lg:gap-7">
-                <Mobile image={image} />
+                <MobileComponents image={image} />
 
                 <div className="lg:space-y-6 space-y-3 lg:w-[700px]">
                     <div>
