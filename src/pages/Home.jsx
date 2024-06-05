@@ -1,4 +1,5 @@
 import Banner from "../components/Banner/Banner";
+import Faq from "../components/Faq/Faq";
 import NavBar from "../components/Navbar/NavBar";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import Premium from "../components/premium/Premium";
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner />
             <Premium />
             <WhyChooseUs/>
+            <Faq/>
             <Testimonials />
         </div>
     );
