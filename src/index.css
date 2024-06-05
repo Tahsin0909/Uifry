@@ -44,7 +44,7 @@
 /* Styles for small screens (sm) */
 @media (max-width: 426px) {
     .css_button {
-        width: 110px;
+        width: 125px;
         padding: 8px 0px;
     }
 }
