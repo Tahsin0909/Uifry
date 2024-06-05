@@ -14,28 +14,28 @@ const Premium = () => {
                     </div>
                     <div>
                         <div className="flex items-center gap-1">
-                            <img className="w-4" src="/public/star.png" alt="" />
+                            <img className="w-4" src="/star.png" alt="" />
                             <p className="font-bold">Budgeting Intervals</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae laboriosam quod delectus quasi possimus voluptatibus a neque soluta eum?</p>
                     </div>
                     <div>
                         <div className="flex items-center gap-1">
-                            <img className="w-4" src="/public/star.png" alt="" />
+                            <img className="w-4" src="/hexagon.png" alt="" />
                             <p className="font-bold">Budgeting Intervals</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae laboriosam quod delectus quasi possimus voluptatibus a neque soluta eum?</p>
                     </div>
                     <div>
                         <div className="flex items-center gap-1">
-                            <img className="w-4" src="/public/star.png" alt="" />
+                            <img className="w-4" src="/cube.png" alt="" />
                             <p className="font-bold">Budgeting Intervals</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae laboriosam quod delectus quasi possimus voluptatibus a neque soluta eum?</p>
                     </div>
                 </div>
             </div>
-            <img className=" absolute right-0 lg:-translate-y-[400px] md:-translate-y-[800px] -translate-y-[700px] -z-40" src="/public/liner.png" alt="" />
+            <img className=" absolute right-0 lg:-translate-y-[400px] md:-translate-y-[800px] -translate-y-[700px] -z-40" src="/liner.png" alt="" />
 
         </section>
     );
